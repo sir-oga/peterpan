@@ -1,0 +1,517 @@
+2013-09-05 3:48:56 - PHP Warning:  array_merge(): Argument #2 is not an array in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\category.tpl on line 11
+2013-09-05 3:48:56 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\category.tpl on line 102
+2013-09-05 3:48:56 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\category.tpl on line 103
+2013-09-10 4:18:29 - PHP Warning:  mkdir(): No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\framework.php on line 191
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/bootstrap-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 1835
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-base-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-typo-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-form-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-layout-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:30 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-box-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:31 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-opencart-modules-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:31 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-opencart-pages-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:31 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-menu-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:31 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-canvas-menu-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:31 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-style-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:32 - PHP Warning:  file_put_contents(D:\xampp\htdocs\floral/system/cache/pav_floral/opencart-responsive-less.css): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessparser.php on line 272
+2013-09-10 4:18:32 - PHP Warning:  fopen(D:\xampp\htdocs\floral/system/cache/cache.language.1378783112): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\system\library\cache.php on line 32
+2013-09-10 4:18:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\floral\system\library\cache.php on line 34
+2013-09-10 4:18:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\floral\system\library\cache.php on line 36
+2013-09-10 4:18:32 - PHP Warning:  fopen(D:\xampp\htdocs\floral/system/cache/cache.currency.1378783112): failed to open stream: No such file or directory in D:\xampp\htdocs\floral\system\library\cache.php on line 32
+2013-09-10 4:18:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\floral\system\library\cache.php on line 34
+2013-09-10 4:18:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\xampp\htdocs\floral\system\library\cache.php on line 36
+2013-09-10 11:48:51 - PHP Notice:  Undefined variable: breadcrumbs in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\breadcrumb.tpl on line 2
+2013-09-10 11:48:51 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\breadcrumb.tpl on line 2
+2013-09-23 4:21:57 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:21:57 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:21:57 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:21:57 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:31:37 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:31:37 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:31:37 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:31:37 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 4:32:38 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 4:32:40 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:08:55 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:09:04 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 9
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 15
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 5:23:32 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavcontentslider.tpl on line 64
+2013-09-23 6:45:36 - PHP Notice:  Error: Could not load language french! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-23 6:48:34 - PHP Notice:  Error: Could not load language french! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-23 6:48:52 - PHP Notice:  Error: Could not load language french! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 11:41:57 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:22:05 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:22:36 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:24:04 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:25:27 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:27:13 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:30:46 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:30:48 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:39:40 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-25 12:39:42 - PHP Notice:  Undefined index: show_title in D:\xampp\htdocs\floral\admin\view\template\module\pavmodulemanager\modules\pavcustom.tpl on line 48
+2013-09-26 4:01:11 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\footer.tpl on line 78
+2013-09-26 4:17:04 - PHP Notice:  Undefined index: show_title in D:\xampp\htdocs\floral\admin\view\template\module\pavmodulemanager\modules\pavcustom.tpl on line 48
+2013-09-26 4:29:09 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 4:29:10 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 4:32:48 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 4:32:49 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:06:40 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:12:06 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:12:07 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:41:22 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:41:23 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:55:45 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:57:25 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:58:17 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 5:58:18 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 6:00:28 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 6:00:29 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-09-26 6:02:14 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-02 4:18:01 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 4:30:35 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 4:31:58 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 4:37:34 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 4:48:41 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 4:48:41 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:08:26 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:19:07 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:25:37 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:33:47 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:34:59 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:54:42 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 5:54:43 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 6:58:29 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 8:53:32 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 8:53:58 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 8:56:45 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 9:15:43 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 9:35:15 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 9:35:18 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 69
+2013-10-02 9:52:33 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 9:53:06 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 10:02:13 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-02 10:02:31 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-02 10:02:33 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-02 10:03:00 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 10:05:41 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-02 10:06:07 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:04:18 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:04:35 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:04:45 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:05:18 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:07:09 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:07:22 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:07:34 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:07:46 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:08:06 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:08:18 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-02 11:08:26 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 3:22:05 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 4:11:11 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 4:15:39 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 4:45:13 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 4:46:49 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 4:47:22 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 5:37:37 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 5:58:43 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 6:22:15 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 6:24:05 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 8:54:13 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 9:00:28 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-03 9:01:29 - PHP Notice:  Undefined variable: i in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 74
+2013-10-04 6:14:15 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 6:14:16 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 6:19:41 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 9:07:22 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 9:07:23 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 10:03:37 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-04 10:03:39 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-07 11:14:30 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-07 11:15:10 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-07 11:15:12 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-07 11:15:41 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-07 11:15:42 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-08 12:15:47 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-08 12:15:49 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-08 12:27:21 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-08 12:27:22 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-10 4:05:51 - PHP Notice:  Undefined variable: MAX_ITEM_ROW_SMALL in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\search.tpl on line 137
+2013-10-10 4:05:51 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\search.tpl on line 137
+2013-10-10 4:05:51 - PHP Notice:  Undefined variable: MAX_ITEM_ROW_MINI in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\search.tpl on line 138
+2013-10-10 4:05:51 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\search.tpl on line 138
+2013-10-10 5:16:59 - PHP Notice:  Undefined property: stdClass::$parent in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 2276
+2013-10-10 5:16:59 - PHP Notice:  Undefined property: stdClass::$type in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 191
+2013-10-10 5:16:59 - PHP Notice:  Undefined property: stdClass::$tags in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 217
+2013-10-10 5:16:59 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 446
+2013-10-10 5:18:49 - PHP Notice:  Undefined property: stdClass::$parent in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 2276
+2013-10-10 5:18:49 - PHP Notice:  Undefined property: stdClass::$type in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 191
+2013-10-10 5:18:49 - PHP Notice:  Undefined property: stdClass::$tags in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 217
+2013-10-10 5:18:49 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\development\libs\lessc.inc.php on line 446
+2013-10-11 10:28:20 - PHP Notice:  Undefined variable: categoryConfig in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\product.tpl on line 20
+2013-10-11 10:28:20 - PHP Notice:  Undefined variable: categoryConfig in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\product.tpl on line 21
+2013-10-11 10:28:20 - PHP Notice:  Undefined variable: categoryConfig in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\product.tpl on line 22
+2013-10-11 10:28:20 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\product.tpl on line 434
+2013-10-11 10:28:20 - PHP Warning:  Division by zero in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\product\product.tpl on line 435
+2013-10-14 4:06:57 - PHP Notice:  Error: Unknown column 'widget_id' in 'field list'<br />Error No: 1054<br /> UPDATE  oc_megamenu SET  `store_id`='0' , `item`='20' , `published`='1' , `type`='category' , `url`='' , `content_text`='' , `parent_id`='1' , `image`='' , `menu_class`='' , `show_title`='1' , `is_group`='0' , `is_content`='0' , `colums`='3' , `submenu_colum_width`='col1=3, col2=3, col3=6' , `type_submenu`='menu' , `submenu_content`='' , `widget_id`='1' WHERE megamenu_id=2 in D:\xampp\htdocs\floral\system\database\mysql.php on line 50
+2013-10-14 4:07:23 - PHP Notice:  Error: Unknown column 'widget_id' in 'field list'<br />Error No: 1054<br /> UPDATE  oc_megamenu SET  `store_id`='0' , `item`='20' , `published`='1' , `type`='category' , `url`='' , `content_text`='' , `parent_id`='1' , `image`='' , `menu_class`='' , `show_title`='1' , `is_group`='0' , `is_content`='0' , `colums`='3' , `submenu_colum_width`='col1=3, col2=3, col3=6' , `type_submenu`='menu' , `submenu_content`='' , `widget_id`='1' WHERE megamenu_id=2 in D:\xampp\htdocs\floral\system\database\mysql.php on line 50
+2013-10-14 10:59:38 - PHP Notice:  Error: Unknown column 'widget_id' in 'field list'<br />Error No: 1054<br /> UPDATE  oc_megamenu SET  `store_id`='0' , `item`='20' , `published`='1' , `type`='category' , `url`='' , `content_text`='' , `parent_id`='1' , `image`='' , `menu_class`='' , `show_title`='1' , `is_group`='0' , `is_content`='0' , `colums`='3' , `submenu_colum_width`='col1=3, col2=3, col3=6' , `type_submenu`='menu' , `submenu_content`='' , `widget_id`='1' WHERE megamenu_id=2 in D:\xampp\htdocs\floral\system\database\mysql.php on line 50
+2013-10-14 11:50:39 - PHP Notice:  Error: Unknown column 'widget_id' in 'field list'<br />Error No: 1054<br /> UPDATE  oc_megamenu SET  `store_id`='0' , `item`='20' , `published`='1' , `type`='category' , `url`='' , `content_text`='' , `parent_id`='1' , `image`='' , `menu_class`='' , `show_title`='1' , `is_group`='0' , `is_content`='0' , `colums`='3' , `submenu_colum_width`='col1=3, col2=3, col3=6' , `type_submenu`='menu' , `submenu_content`='' , `widget_id`='1' WHERE megamenu_id=2 in D:\xampp\htdocs\floral\system\database\mysql.php on line 50
+2013-10-14 11:52:08 - PHP Notice:  Error: Unknown column 'widget_id' in 'field list'<br />Error No: 1054<br /> UPDATE  oc_megamenu SET  `store_id`='0' , `item`='33' , `published`='1' , `type`='category' , `url`='' , `content_text`='' , `parent_id`='1' , `image`='' , `menu_class`='' , `show_title`='1' , `is_group`='0' , `is_content`='0' , `colums`='1' , `submenu_colum_width`='' , `type_submenu`='menu' , `submenu_content`='' , `widget_id`='1' WHERE megamenu_id=7 in D:\xampp\htdocs\floral\system\database\mysql.php on line 50
+2013-10-16 5:31:09 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 120
+2013-10-16 6:18:58 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 120
+2013-10-16 6:29:42 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 120
+2013-10-16 9:36:14 - PHP Notice:  Array to string conversion in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\common\addon\panel.tpl on line 120
+2013-10-17 10:59:50 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-17 11:02:11 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-17 11:02:12 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-18 9:55:18 - PHP Notice:  Undefined variable: module_row in D:\xampp\htdocs\floral\admin\view\template\module\pavnewsletter\config.tpl on line 114
+2013-10-21 3:33:14 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:02:25 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:08:58 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:44:31 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:44:32 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:46:17 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 4:53:06 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 7:02:08 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 7:06:10 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 7:07:04 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 8:47:15 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-21 9:15:53 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 9:22:39 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 9:32:01 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 9:34:37 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 9:34:39 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-21 9:38:56 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:37:35 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:47:36 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:09 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:49:28 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:54:54 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:55:55 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 3:56:33 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:04:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:11 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:06:38 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:09:52 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:16 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:10:17 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:11:51 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:18:01 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 121
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:32:21 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: value in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 4:45:14 - PHP Notice:  Undefined index: text in D:\xampp\htdocs\floral\admin\view\template\module\themecontrol\themecontrol.tpl on line 120
+2013-10-22 10:00:31 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-22 10:00:32 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-22 10:06:34 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-22 10:06:35 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-24 11:14:08 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-24 11:14:09 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 3:59:00 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 4:00:40 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 4:00:42 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 4:02:57 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 5:13:10 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 5:16:50 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-25 6:23:12 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-26 4:05:23 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 4:09:49 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 4:12:06 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 4:59:09 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 5:02:21 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 5:02:21 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 5:06:34 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 5:09:09 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-26 5:09:39 - PHP Warning:  get_object_vars() expects parameter 1 to be object, string given in D:\xampp\htdocs\floral\admin\controller\module\themecontrol.php on line 416
+2013-10-29 9:04:59 - PHP Notice:  Error: Could not load language pavtwitter! in D:\xampp\htdocs\floral\system\library\language.php on line 39
+2013-10-29 9:55:06 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:55:07 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:55:07 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavtwitter.tpl on line 4
+2013-10-29 9:55:07 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:55:07 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:57:40 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:57:40 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:57:40 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavtwitter.tpl on line 4
+2013-10-29 9:57:40 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 9:57:40 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 10:04:41 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 10:04:41 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 10:04:41 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavtwitter.tpl on line 4
+2013-10-29 10:04:41 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 10:04:41 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavproductcarousel.tpl on line 6
+2013-10-29 10:05:58 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavtwitter.tpl on line 4
+2013-10-29 10:14:53 - PHP Notice:  Undefined variable: module_class in D:\xampp\htdocs\floral\catalog\view\theme\pav_floral\template\module\pavtwitter.tpl on line 4
+2015-12-23 19:33:30 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:34:16 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:35:58 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:37:16 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:37:27 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:37:34 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:49:02 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:49:09 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:49:10 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:49:18 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:49:18 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:49:18 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:49:18 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:51:37 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:51:42 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:51:42 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:51:43 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:51:48 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:51:54 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:52:25 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:52:25 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:52:38 - PHP Notice:  Error: Could not load language russian! in /home/seredenko/server/peterpan.zz/system/library/language.php on line 39
+2015-12-23 19:53:29 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:58:27 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 19:59:47 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 20:05:34 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 20:05:42 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 20:05:50 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 20:06:05 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
+2015-12-23 20:09:11 - PHP Notice:  Undefined variable: module_class in /home/seredenko/server/peterpan.zz/catalog/view/theme/pav_floral/template/module/pavtwitter.tpl on line 4
