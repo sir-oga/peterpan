@@ -1,0 +1,26 @@
+.newsletter_block {
+    margin: 0;
+    border-bottom: 1px dotted #7f7878; 
+    padding: 20px 0;
+}
+.newsletter_block .title_block, .newsletter_block h4 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+.newsletter_block p{
+	padding:0px;
+}
+.newsletter_block input.inputNew {
+}
+.newsletter_block input.button_mini {
+    background: url("../image/newsletter_ok.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 23px;
+    left: -2px;
+    position: relative;
+    text-indent: -5000px;
+    width: 24px;
+}

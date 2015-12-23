@@ -1,0 +1,39 @@
+
+/* customize for body */ 
+body #page-container { background-color:#} 
+#search input { background-color:#611261} 
+body #page-container { color:#} 
+body #page-container a { color:#} 
+body #page-container a:hover { color:#../../image/pattern/pattern9.png} 
+body #page-container { background-image:url()} 
+
+/* customize for header */ 
+#header .container { background-color:#} 
+#header  { color:#} 
+#header a { color:#} 
+#header .container { background-image:url()} 
+
+/* customize for mainnav */ 
+#mainnav .mainnav-inner { background-color:#} 
+#mainnav a { color:#} 
+#mainnav a:hover { color:#} 
+
+/* customize for footer */ 
+.footer-center .container { background-color:#} 
+.footer-center div { color:#} 
+.footer-center a { color:#} 
+.footer-center a:hover { color:#} 
+.footer-center .container { background-image:url()} 
+
+/* customize for form */ 
+a.button, input.button { color:#} 
+a.button, input.button { background-color:#} 
+
+/* customize for heading */ 
+body h1 { color:#} 
+body h2,body h3,body h4 { color:#} 
+
+/* customize for product_block */ 
+.product-block .name a { color:#} 
+.product-block .price { color:#} 
+.product-block .price-old { color:#} 

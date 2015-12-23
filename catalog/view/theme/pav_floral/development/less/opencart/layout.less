@@ -1,0 +1,299 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+#page{
+    margin: 0 auto;
+    background: @theme-body-bg;
+}
+.header-wrap,.wrap-logo,#pav-mainnav,#cart,#header,
+#topbar{
+    .transition (all 0.5s);
+}
+.hide-bar{
+
+      margin-top: -72px;
+     .transition (all 0.5s);
+
+  #header-main{
+    .box-shadow(0 0 5px #888);
+    .header-wrap{ 
+        height: 66px;
+        .wrap-logo{
+            padding: 0px;
+        }
+        #pav-mainnav{
+            padding: 0px;
+        }
+        
+        #cart{
+            margin-top: 10px;
+            height: 56px;
+            .content{
+                top:55px;
+            }
+        }
+    } 
+  }
+}
+#page{
+   .transition (all 0.5s);
+}
+
+body{
+    &.layout-boxed-md{
+        background: url("@{image-theme-path-base}pattern/pattern14.png");
+        #page{  max-width: @container-desktop; .box-shadow(0 0 5px #888); }
+        .hidden-md{display: none !important}
+        .col-md-6{width:50%}
+        #header-main{
+            .header-wrap{
+                .wrap-logo{
+                    width: 150px;
+                    padding: 15px 0px;
+                }    
+            }     
+        } 
+
+
+
+    }
+    &.layout-boxed-lg{
+        background: url("@{image-theme-path-base}pattern/pattern14.png");
+        #page{  max-width: @container-lg-desktop; .box-shadow(0 0 5px #888); }
+
+    }
+    &.fullwidth{ }
+
+    
+ }   
+/*
+ * HEADER 
+ */
+#header{
+
+}
+
+#topbar  {
+    margin-bottom: @margin-bottom-base;
+    .topbar{
+        color:@topbar-color;
+        font-size: @topbar-font-size;
+        background:@topbar-bg;
+        ul {
+            li {
+                margin-left: 8px;
+                a {
+                    font-size: @topbar-font-size;
+                    color:@topbar-link-color;
+                }
+                span{
+                    margin-right: 5px;
+                }
+                &:hover a{
+                    color:@topbar-link-hover-color;   
+                }
+                &:first-child{
+                    margin-left: 15px;
+                }
+            }
+            
+        }
+        .login,
+        .links {
+            margin:15px 0px
+        }
+    }
+}
+
+
+#header-main{
+    background-color: @header-bg;
+    margin-bottom: @margin-bottom-base;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    .header-wrap{
+        height: 86px;
+        .wrap-logo{
+            padding: 10px 0;
+        }
+    }
+    .inner{
+        display:table;
+        position: relative;
+        height: 100%;
+        & > *{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+ 
+/*
+ * NAVIGATION
+ */
+#pav-mainnav {
+
+}
+
+/*
+ * SLIDESHOW 
+ */
+#pav-slideshow {}
+
+/*
+ * SHOWCASE 
+ */
+#pav-showcase {}
+
+/*
+ * PROMOTION TOP 
+ */
+#pav-promotion {}
+/*
+ * MAIN CONTENT
+ */  
+#content {
+    min-height: 400px;
+    margin-bottom: 25px;
+}
+
+.sidebar  [class*="col-"] {
+    width: 100%
+}
+/* FOOTER s*/
+ 
+
+#footer {
+    background: @footer-bg;
+    .clearfix();
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    color: @footer-color;
+    //border-top: 1px solid darker( @footer-bg, 20% );
+    //border-bottom: 1px solid darker( @footer-bg, 20% );
+
+    
+    .footer-top{
+        .wrap-fcenter{
+            background:  @footer-top-bg;
+        }
+    }
+    .footer-center{
+        .wrap-fcenter{
+            background:  @footer-center-bg;
+            padding: 20px;
+        }
+    }
+    .footer-bottom{}
+    h3 {
+        color: @footer-heading-color;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+}
+
+/* POWER BY */
+#powered {
+    text-align: left;
+    clear: both;
+   color:@white;
+   .powered{
+        background: @power-bg;
+        padding: @padding-small-horizontal  20px; 
+         overflow: hidden;
+        a{
+            color: @default-color;
+         }
+   }
+}
+
+
+.banner {
+    div {
+        text-align: center;
+        width: 100%;
+        display: none;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+/* breadcrumd */
+#breadcrumb {
+    .breadcrumb{
+        padding: 15px;
+        border-radius: 0;
+        border-bottom: 1px dotted @gray-light;
+        li{
+            a{
+                color: @breadcrumb-color;
+            }
+            &:last-child{
+                a{
+                    color: @breadcrumb-active-color;
+                }
+            }
+            a:hover{
+                    color: @breadcrumb-hover-color;
+            } 
+        }
+    }
+}
+
+.mini-access{
+    > ul{
+        margin: 0px;
+        padding: 0px;
+        > li{
+            width: 35px;
+            height: 35px;
+            border:1px solid  #DDD; 
+            text-align: center;
+            display: inline-block;
+            margin: 5px 10px;
+            position: relative;
+            > a{
+                line-height: 35px;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            &:hover{
+                border-color: @default-color;
+                >a{
+                    color: @default-color;
+                }
+            }
+            .dropdown-menu{
+                right: -10px; left: auto;
+                padding: 6px 15px;
+                border-top:none;
+                .transition (all 0.5s);
+                height: 0;
+                opacity: 0;
+                display: none;
+            }
+            &.open{
+                .dropdown-menu{
+                    height: auto;
+                    opacity: 1;
+                    display: block;
+                }
+            }
+            &.search{
+                .dropdown-menu{
+                    width: 250px;
+                }
+            }
+
+        }
+    }    
+}

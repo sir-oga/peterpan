@@ -3,7 +3,6 @@
 $_['heading_title']     = 'Sales Report';
 
 // Text
-$_['text_list']         = 'Sales List';
 $_['text_year']         = 'Years';
 $_['text_month']        = 'Months';
 $_['text_week']         = 'Weeks';
@@ -19,7 +18,8 @@ $_['column_tax']        = 'Tax';
 $_['column_total']      = 'Total';
 
 // Entry
-$_['entry_date_start']  = 'Date Start';
-$_['entry_date_end']    = 'Date End';
-$_['entry_group']       = 'Group By';
-$_['entry_status']      = 'Order Status';
+$_['entry_date_start']  = 'Date Start:';
+$_['entry_date_end']    = 'Date End:';
+$_['entry_group']       = 'Group By:';
+$_['entry_status']      = 'Order Status:';
+?>

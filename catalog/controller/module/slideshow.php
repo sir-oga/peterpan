@@ -1,34 +1,47 @@
-<?php
+<?php  
 class ControllerModuleSlideshow extends Controller {
-	public function index($setting) {
+	protected function index($setting) {
 		static $module = 0;
-
+		
 		$this->load->model('design/banner');
 		$this->load->model('tool/image');
-
-		$this->document->addStyle('catalog/view/javascript/jquery/owl-carousel/owl.carousel.css');
-		$this->document->addScript('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js');
-
-		$data['banners'] = array();
-
-		$results = $this->model_design_banner->getBanner($setting['banner_id']);
-
-		foreach ($results as $result) {
-			if (is_file(DIR_IMAGE . $result['image'])) {
-				$data['banners'][] = array(
-					'title' => $result['title'],
-					'link'  => $result['link'],
-					'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
-				);
+		
+		$this->document->addScript('catalog/view/javascript/jquery/nivo-slider/jquery.nivo.slider.pack.js');
+		
+		if (file_exists('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/slideshow.css')) {
+			$this->document->addStyle('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/slideshow.css');
+		} else {
+			$this->document->addStyle('catalog/view/theme/default/stylesheet/slideshow.css');
+		}
+		
+		$this->data['width'] = $setting['width'];
+		$this->data['height'] = $setting['height'];
+		
+		$this->data['banners'] = array();
+		
+		if (isset($setting['banner_id'])) {
+			$results = $this->model_design_banner->getBanner($setting['banner_id']);
+			  
+			foreach ($results as $result) {
+				if (file_exists(DIR_IMAGE . $result['image'])) {
+					$this->data['banners'][] = array(
+						'title' => $result['title'],
+						'link'  => $result['link'],
+						'image' => $this->model_tool_image->resize($result['image'], $setting['width'], $setting['height'])
+					);
+				}
 			}
 		}
-
-		$data['module'] = $module++;
-
+		
+		$this->data['module'] = $module++;
+						
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/slideshow.tpl')) {
-			return $this->load->view($this->config->get('config_template') . '/template/module/slideshow.tpl', $data);
+			$this->template = $this->config->get('config_template') . '/template/module/slideshow.tpl';
 		} else {
-			return $this->load->view('default/template/module/slideshow.tpl', $data);
+			$this->template = 'default/template/module/slideshow.tpl';
 		}
+		
+		$this->render();
 	}
 }
+?>

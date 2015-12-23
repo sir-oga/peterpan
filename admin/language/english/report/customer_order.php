@@ -3,7 +3,6 @@
 $_['heading_title']         = 'Customer Orders Report';
 
 // Text
-$_['text_list']             = 'Customer Orders List';
 $_['text_all_status']       = 'All Statuses';
 
 // Column
@@ -17,6 +16,7 @@ $_['column_total']          = 'Total';
 $_['column_action']         = 'Action';
 
 // Entry
-$_['entry_date_start']      = 'Date Start';
-$_['entry_date_end']        = 'Date End';
-$_['entry_status']          = 'Order Status';
+$_['entry_date_start']      = 'Date Start:';
+$_['entry_date_end']        = 'Date End:';
+$_['entry_status']          = 'Order Status:';
+?>

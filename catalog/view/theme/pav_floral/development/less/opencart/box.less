@@ -1,0 +1,230 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+// Center-align a block level element
+ 
+/* box */
+.box {
+    margin-bottom: @boxModuleMarginBottom;
+    .box-heading {
+        
+        border-bottom:@boxModuleHeadingBorder;
+        
+        padding:@boxModuleHeadingPadding;
+        font-family:@boxModuleHeadingFont ;
+        font-size: @boxModuleHeadingFontSize;
+        font-weight: @boxModuleHeadingFontWeight;
+        line-height: @boxModuleHeadingHeight;
+        color: @boxModuleHeadingColor;
+        span{
+            background:@boxModuleHeadingBg;
+            height:@boxModuleHeadingHeight;
+            padding:0px 10px;
+            display: inline-block;
+        }
+    }
+    .box-content {
+        // background: @boxModuleContentBg;
+        //.border-exclude-top( 1px, solid , @boxModuleBorderColor );
+        color: @boxModuleContentColor;
+        padding: @boxModuleContentPadding;
+        ul{
+            padding: 0;
+            list-style: @boxModuleContentListStyle;
+            li{
+                border-bottom:@boxModuleContentListBorder ;
+                padding:@boxModuleContentListPadding;
+            }
+        }
+        a{
+            color: @boxModuleContentColor;
+            &:hover{
+                color:@boxModuleContentColorHover;
+            }
+        }
+
+
+    }
+    &.pav-custom{
+        .box-content{
+            padding: 0;
+        }
+    }
+
+    &.productcarousel {
+        .box-heading
+        {
+            border-bottom: none;
+            padding: @boxModuleCustomHeadingPadding;
+            border-color: @default-color;
+            border-style: solid;
+            border-width: 0 0 0 5px;
+            span{
+                background: @boxModuleCustomHeadingBg !important;
+            }
+        }
+        .box-content{
+            .product-block{
+                .name{
+                    a{
+                        font-size: 24px;
+                    }
+                }
+                background: @white;
+                overflow: hidden;
+                .product-meta{
+                    padding: 8px 18px 20px;
+                }
+            }
+        }
+        &.vertical{
+            .image{
+                float: left;
+                width: 47%;
+                margin-right: 15px;
+            }
+        }
+        /**style box product**/
+        &.orange .box-heading{border-color: @orange;}
+        &.blue .box-heading{border-color: @blue;}
+        &.red .box-heading{ border-color: @red;}
+        &.yellow .box-heading{ border-color: @yellow;}
+        &.pink .box-heading{ border-color: @pink;} 
+        &.purple .box-heading{border-color: @purple;} 
+        &.white .box-heading{border-color: @white} 
+        &.black .box-heading{border-color: @black}
+        &.cyan .box-heading{border-color: @cyan}         
+    }
+
+    &.bloglatest{
+        background: @white;
+        .box-heading{
+            padding: 0;
+            border: none;
+        }
+        .box-content{
+            padding:18px;
+        }
+    }
+
+    /*style title*/
+    &.blue .box-heading span{background: @blue}
+    &.bluedark .box-heading span{background: @blueDark}
+    &.green .box-heading span{background: @green}
+    &.red .box-heading span{background: @red}
+    &.yellow .box-heading span{background: @yellow}
+    &.orange .box-heading span{background: @orange}
+    &.pink .box-heading span{background: @pink}
+    &.black .box-heading span{background: @black}
+    &.purple .box-heading span{background: @purple}
+    &.white .box-heading span{background: @white; color: @black}
+    &.cyan .box-heading span{background: @cyan}
+
+    &.cusblock{
+        margin:0;
+        background: @default-color;
+        .box-content{
+            padding:0;
+        }
+    }
+
+
+}
+
+#pav-slideshow .box-content{padding: 0}
+
+#footer{
+    .box { 
+        .box-heading{
+            .clearboxstyle(); 
+            color: @footer-heading-color;
+            font-size: @footer-heading-font-size;
+            font-family:  @footer-heading-font;
+            font-weight: 700;
+            position: relative;
+            margin-bottom: 8px;
+            padding:12px 0px;
+            line-height: @line-height-base;
+            &:after{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 18px;
+                height: 1px;
+                content: ".";
+                text-indent: -9999em;
+                background: @default-color;
+            }
+            span{
+                background: transparent;
+                padding: 0;
+                height: auto;
+            }
+            h2{
+                margin:0;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: @line-height-base;
+                font-family: @font-family-custom;
+            }
+        }
+        .box-content{
+            .clearboxstyle();
+            li{
+                border: none;
+                padding: 0px 0px 0 15px;
+                margin-bottom: 9px;
+                background:  @footer-list-style;
+                a{
+                    text-decoration: none;
+                    color: @footer-link-color;                       
+                    i{
+                        margin-right: 3px;
+                        font-size: @font-size-small;
+                    }
+                    &:hover{
+                        color:@footer-link-hover-color;
+                    }
+                }
+            } 
+        }
+    }
+    .column {
+        a {
+            text-decoration: none;
+            color: @footer-link-color;
+            i{
+                font-size: @font-size-small - 2;
+                margin-right: 3px;
+            }
+        }
+        ul {
+            list-style: none;
+            margin-top: 0px;
+            padding-left: 0;
+            li {
+                margin-bottom: 9px;
+            }
+        }
+        a:hover {
+            //text-decoration: underline;
+            color:@footer-link-hover-color;
+        }
+    }
+} 
+
+.rtl{
+     #footer{
+        .box{
+            .box-content{
+                li{
+                    background: url('@{image-theme-path}flist-style-rtl.png') right center no-repeat;
+                }
+            }  
+        }  
+    }
+}

@@ -1,27 +1,27 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://peterpan.salsadance.dp.ua/');
+define('HTTP_SERVER', 'http://peterpan.zz/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://peterpan.salsadance.dp.ua/');
+define('HTTPS_SERVER', 'http://peterpan.zz/');
 
 // DIR
-define('DIR_APPLICATION', '/home/silezkiy/salsadance.dp.ua/peterpan/catalog/');
-define('DIR_SYSTEM', '/home/silezkiy/salsadance.dp.ua/peterpan/system/');
-define('DIR_LANGUAGE', '/home/silezkiy/salsadance.dp.ua/peterpan/catalog/language/');
-define('DIR_TEMPLATE', '/home/silezkiy/salsadance.dp.ua/peterpan/catalog/view/theme/');
-define('DIR_CONFIG', '/home/silezkiy/salsadance.dp.ua/peterpan/system/config/');
-define('DIR_IMAGE', '/home/silezkiy/salsadance.dp.ua/peterpan/image/');
-define('DIR_CACHE', '/home/silezkiy/salsadance.dp.ua/peterpan/system/cache/');
-define('DIR_DOWNLOAD', '/home/silezkiy/salsadance.dp.ua/peterpan/system/download/');
-define('DIR_UPLOAD', '/home/silezkiy/salsadance.dp.ua/peterpan/system/upload/');
-define('DIR_MODIFICATION', '/home/silezkiy/salsadance.dp.ua/peterpan/system/modification/');
-define('DIR_LOGS', '/home/silezkiy/salsadance.dp.ua/peterpan/system/logs/');
+define('DIR_APPLICATION', '/home/seredenko/server/peterpan.zz/catalog/');
+define('DIR_SYSTEM', '/home/seredenko/server/peterpan.zz/system/');
+define('DIR_DATABASE', '/home/seredenko/server/peterpan.zz/system/database/');
+define('DIR_LANGUAGE', '/home/seredenko/server/peterpan.zz/catalog/language/');
+define('DIR_TEMPLATE', '/home/seredenko/server/peterpan.zz/catalog/view/theme/');
+define('DIR_CONFIG', '/home/seredenko/server/peterpan.zz/system/config/');
+define('DIR_IMAGE', '/home/seredenko/server/peterpan.zz/image/');
+define('DIR_CACHE', '/home/seredenko/server/peterpan.zz/system/cache/');
+define('DIR_DOWNLOAD', '/home/seredenko/server/peterpan.zz/download/');
+define('DIR_LOGS', '/home/seredenko/server/peterpan.zz/system/logs/');
 
 // DB
-define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'silezkiy.mysql.ukraine.com.ua');
-define('DB_USERNAME', 'silezkiy_pp');
-define('DB_PASSWORD', 'w7cftnn5');
-define('DB_DATABASE', 'silezkiy_pp');
-define('DB_PREFIX', 'oc_');
+define('DB_DRIVER', 'mysql');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '1234');
+define('DB_DATABASE', 'peterpan');
+define('DB_PREFIX', '');
+?>

@@ -3,8 +3,8 @@
 $_['heading_title']     = 'Shipping';
 
 // Text
-$_['text_success']      = 'Success: You have modified shipping!';
-$_['text_list']         = 'Shipping List';
+$_['text_install']      = 'Install';
+$_['text_uninstall']    = 'Uninstall';
 
 // Column
 $_['column_name']       = 'Shipping Method';
@@ -14,3 +14,4 @@ $_['column_action']     = 'Action';
 
 // Error
 $_['error_permission']  = 'Warning: You do not have permission to modify shipping!';
+?>

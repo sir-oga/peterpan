@@ -1,0 +1,38 @@
+
+/* customize for body */ 
+body #page-container { background-color:#c9a018} 
+body #page-container { color:#965d5d} 
+body #page-container a { color:#a13a3a} 
+body #page-container a:hover { color:#734747} 
+body #page-container { background-image:url(../../image/pattern/pattern12.png)} 
+
+/* customize for header */ 
+#header .container { background-color:#914343} 
+#header  { color:#5e4646} 
+#header a { color:#991919} 
+#header .container { background-image:url(../../image/pattern/pattern12.png)} 
+
+/* customize for mainnav */ 
+#mainnav .mainnav-inner { background-color:#8a3232} 
+#mainnav a { color:#6b4040} 
+#mainnav a:hover { color:#731212} 
+
+/* customize for footer */ 
+.footer-center .container { background-color:#8f5050} 
+.footer-center div { color:#782e2e} 
+.footer-center a { color:#b04848} 
+.footer-center a:hover { color:#bf7a7a} 
+.footer-center .container { background-image:url(../../image/pattern/pattern9.png)} 
+
+/* customize for form */ 
+a.button, input.button { color:#} 
+a.button, input.button { background-color:#} 
+
+/* customize for heading */ 
+body h1 { color:#} 
+body h2,body h3,body h4 { color:#} 
+
+/* customize for product_block */ 
+.product-block .name a { color:#7a0909} 
+.product-block .price { color:#692a2a} 
+.product-block .price-old { color:#} 

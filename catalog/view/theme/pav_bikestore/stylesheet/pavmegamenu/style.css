@@ -1,0 +1,16 @@
+.pav-megamenu{
+	position: relative;	
+}
+
+
+.widget-product-list img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 12px;
+}
+
+.widget-banner .w-banner{
+ margin: 6px 10px; 
+	float: left;
+} 

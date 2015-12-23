@@ -1,0 +1,39 @@
+
+/* customize for body */ 
+body #page { background-color:#e055e0} 
+body #page { color:#d971d9} 
+body #page a { color:#fa00fa} 
+body #page a:hover { color:#3d003d} 
+body #page { background-image:url(../../image/pattern/pattern9.png)} 
+
+/* customize for topbar */ 
+#topbar .topbar { background-color:#eb36eb} 
+#topbar .topbar { color:#ffffff} 
+#topbar .topbar a,#topbar .topbar ul li a { color:#ffffff} 
+#topbar .topbar a:hover,#currency a b,#topbar .topbar ul li a:hover { color:#ff004d} 
+#currency,#language,#search { border-color:#ba04ba} 
+#currency,#language,#search { background-color:#ff61ff} 
+#search input, #search .button-search span { color:#424242} 
+
+/* customize for header */ 
+#header #cart span.icon { background-color:#ff053f} 
+#header #cart .heading h4 { color:#0011ff} 
+#header .cart-top, #pav-mainnav { border-color:#f500f5} 
+
+/* customize for footer */ 
+#footer,#footer .box .box-heading:after { background-color:#bf0fbf} 
+#footer .box .box-content { color:#ff5cff} 
+#footer .box .box-content a,#footer .box .box-content li a { color:#ff6bff} 
+#footer .box .box-content a:hover,#powered .powered a,#footer .box .box-content li a:hover { color:#f500f5} 
+#footer .wrap-fcenter { background-color:#b500b5} 
+#footer #powered .powered { background-color:#5c015c} 
+
+/* customize for produt */ 
+.product-block .name a { color:#fa0000} 
+.product-block .description { color:#db29db} 
+.price-cart .price-new,.price { color:#2474ff} 
+.price-cart .price-old { color:#bf1fbf} 
+.product-block .button ,.product-block .button .icon { color:#ff8c00} 
+.product-block .button { border-color:#ffc412} 
+
+/* customize for module */ 

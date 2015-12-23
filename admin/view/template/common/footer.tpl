@@ -1,2 +1,3 @@
-<footer id="footer"><?php echo $text_footer; ?><br /><?php echo $text_version; ?></footer></div>
+</div>
+<div id="footer"><?php echo $text_footer; ?></div>
 </body></html>

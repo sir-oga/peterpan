@@ -1,154 +1,104 @@
 <?php
 class ControllerModuleCarousel extends Controller {
-	private $error = array();
+	private $error = array(); 
 
-	public function index() {
-		$this->load->language('module/carousel');
+	public function index() {   
+		$this->language->load('module/carousel');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
-		$this->load->model('extension/module');
+		$this->load->model('setting/setting');
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			if (!isset($this->request->get['module_id'])) {
-				$this->model_extension_module->addModule('carousel', $this->request->post);
-			} else {
-				$this->model_extension_module->editModule($this->request->get['module_id'], $this->request->post);
-			}
+			$this->model_setting_setting->editSetting('carousel', $this->request->post);		
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
-			$this->response->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
+			$this->redirect($this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'));
 		}
 
-		$data['heading_title'] = $this->language->get('heading_title');
+		$this->data['heading_title'] = $this->language->get('heading_title');
 
-		$data['text_edit'] = $this->language->get('text_edit');
-		$data['text_enabled'] = $this->language->get('text_enabled');
-		$data['text_disabled'] = $this->language->get('text_disabled');
+		$this->data['text_enabled'] = $this->language->get('text_enabled');
+		$this->data['text_disabled'] = $this->language->get('text_disabled');
+		$this->data['text_content_top'] = $this->language->get('text_content_top');
+		$this->data['text_content_bottom'] = $this->language->get('text_content_bottom');		
+		$this->data['text_column_left'] = $this->language->get('text_column_left');
+		$this->data['text_column_right'] = $this->language->get('text_column_right');
 
-		$data['entry_name'] = $this->language->get('entry_name');
-		$data['entry_banner'] = $this->language->get('entry_banner');
-		$data['entry_width'] = $this->language->get('entry_width');
-		$data['entry_height'] = $this->language->get('entry_height');
-		$data['entry_status'] = $this->language->get('entry_status');
+		$this->data['entry_banner'] = $this->language->get('entry_banner');
+		$this->data['entry_limit'] = $this->language->get('entry_limit');
+		$this->data['entry_scroll'] = $this->language->get('entry_scroll');
+		$this->data['entry_image'] = $this->language->get('entry_image');
+		$this->data['entry_layout'] = $this->language->get('entry_layout');
+		$this->data['entry_position'] = $this->language->get('entry_position');
+		$this->data['entry_status'] = $this->language->get('entry_status');
+		$this->data['entry_sort_order'] = $this->language->get('entry_sort_order');
 
-		$data['button_save'] = $this->language->get('button_save');
-		$data['button_cancel'] = $this->language->get('button_cancel');
+		$this->data['button_save'] = $this->language->get('button_save');
+		$this->data['button_cancel'] = $this->language->get('button_cancel');
+		$this->data['button_add_module'] = $this->language->get('button_add_module');
+		$this->data['button_remove'] = $this->language->get('button_remove');
 
-		if (isset($this->error['warning'])) {
-			$data['error_warning'] = $this->error['warning'];
+ 		if (isset($this->error['warning'])) {
+			$this->data['error_warning'] = $this->error['warning'];
 		} else {
-			$data['error_warning'] = '';
+			$this->data['error_warning'] = '';
 		}
 
-		if (isset($this->error['name'])) {
-			$data['error_name'] = $this->error['name'];
+		if (isset($this->error['image'])) {
+			$this->data['error_image'] = $this->error['image'];
 		} else {
-			$data['error_name'] = '';
+			$this->data['error_image'] = array();
 		}
 
-		if (isset($this->error['width'])) {
-			$data['error_width'] = $this->error['width'];
-		} else {
-			$data['error_width'] = '';
+  		$this->data['breadcrumbs'] = array();
+
+   		$this->data['breadcrumbs'][] = array(
+       		'text'      => $this->language->get('text_home'),
+			'href'      => $this->url->link('common/home', 'token=' . $this->session->data['token'], 'SSL'),
+      		'separator' => false
+   		);
+
+   		$this->data['breadcrumbs'][] = array(
+       		'text'      => $this->language->get('text_module'),
+			'href'      => $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'),
+      		'separator' => ' :: '
+   		);
+
+   		$this->data['breadcrumbs'][] = array(
+       		'text'      => $this->language->get('heading_title'),
+			'href'      => $this->url->link('module/carousel', 'token=' . $this->session->data['token'], 'SSL'),
+      		'separator' => ' :: '
+   		);
+
+		$this->data['action'] = $this->url->link('module/carousel', 'token=' . $this->session->data['token'], 'SSL');
+
+		$this->data['cancel'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL');
+
+		$this->data['modules'] = array();
+
+		if (isset($this->request->post['carousel_module'])) {
+			$this->data['modules'] = $this->request->post['carousel_module'];
+		} elseif ($this->config->get('carousel_module')) { 
+			$this->data['modules'] = $this->config->get('carousel_module');
 		}
 
-		if (isset($this->error['height'])) {
-			$data['error_height'] = $this->error['height'];
-		} else {
-			$data['error_height'] = '';
-		}
+		$this->load->model('design/layout');
 
-		$data['breadcrumbs'] = array();
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL')
-		);
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_module'),
-			'href' => $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL')
-		);
-
-		if (!isset($this->request->get['module_id'])) {
-			$data['breadcrumbs'][] = array(
-				'text' => $this->language->get('heading_title'),
-				'href' => $this->url->link('module/carousel', 'token=' . $this->session->data['token'], 'SSL')
-			);
-		} else {
-			$data['breadcrumbs'][] = array(
-				'text' => $this->language->get('heading_title'),
-				'href' => $this->url->link('module/carousel', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL')
-			);
-		}
-
-		if (!isset($this->request->get['module_id'])) {
-			$data['action'] = $this->url->link('module/carousel', 'token=' . $this->session->data['token'], 'SSL');
-		} else {
-			$data['action'] = $this->url->link('module/carousel', 'token=' . $this->session->data['token'] . '&module_id=' . $this->request->get['module_id'], 'SSL');
-		}
-
-		$data['cancel'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL');
-
-		if (isset($this->request->get['module_id']) && ($this->request->server['REQUEST_METHOD'] != 'POST')) {
-			$module_info = $this->model_extension_module->getModule($this->request->get['module_id']);
-		}
-
-		if (isset($this->request->post['name'])) {
-			$data['name'] = $this->request->post['name'];
-		} elseif (!empty($module_info)) {
-			$data['name'] = $module_info['name'];
-		} else {
-			$data['name'] = '';
-		}
-
-		if (isset($this->request->post['banner_id'])) {
-			$data['banner_id'] = $this->request->post['banner_id'];
-		} elseif (!empty($module_info)) {
-			$data['banner_id'] = $module_info['banner_id'];
-		} else {
-			$data['banner_id'] = '';
-		}
+		$this->data['layouts'] = $this->model_design_layout->getLayouts();
 
 		$this->load->model('design/banner');
 
-		$data['banners'] = $this->model_design_banner->getBanners();
+		$this->data['banners'] = $this->model_design_banner->getBanners();
 
-		if (isset($this->request->post['width'])) {
-			$data['width'] = $this->request->post['width'];
-		} elseif (!empty($module_info)) {
-			$data['width'] = $module_info['width'];
-		} else {
-			$data['width'] = 130;
-		}
+		$this->template = 'module/carousel.tpl';
+		$this->children = array(
+			'common/header',
+			'common/footer'
+		);
 
-		if (isset($this->request->post['height'])) {
-			$data['height'] = $this->request->post['height'];
-		} elseif (!empty($module_info)) {
-			$data['height'] = $module_info['height'];
-		} else {
-			$data['height'] = 100;
-		}
-
-		if (isset($this->request->post['status'])) {
-			$data['status'] = $this->request->post['status'];
-		} elseif (!empty($module_info)) {
-			$data['status'] = $module_info['status'];
-		} else {
-			$data['status'] = '';
-		}
-
-		$this->load->model('design/banner');
-
-		$data['banners'] = $this->model_design_banner->getBanners();
-
-		$data['header'] = $this->load->controller('common/header');
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['footer'] = $this->load->controller('common/footer');
-
-		$this->response->setOutput($this->load->view('module/carousel.tpl', $data));
+		$this->response->setOutput($this->render());
 	}
 
 	protected function validate() {
@@ -156,18 +106,19 @@ class ControllerModuleCarousel extends Controller {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 
-		if ((utf8_strlen($this->request->post['name']) < 3) || (utf8_strlen($this->request->post['name']) > 64)) {
-			$this->error['name'] = $this->language->get('error_name');
-		}
+		if (isset($this->request->post['carousel_module'])) {
+			foreach ($this->request->post['carousel_module'] as $key => $value) {				
+				if (!$value['width'] || !$value['height']) {
+					$this->error['image'][$key] = $this->language->get('error_image');
+				}
+			}
+		}	
 
-		if (!$this->request->post['width']) {
-			$this->error['width'] = $this->language->get('error_width');
-		}
-
-		if (!$this->request->post['height']) {
-			$this->error['height'] = $this->language->get('error_height');
-		}
-
-		return !$this->error;
+		if (!$this->error) {
+			return true;
+		} else {
+			return false;
+		}	
 	}
 }
+?>

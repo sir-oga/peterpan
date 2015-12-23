@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<themeeditor>
+	<version value="1.4">
+	<ccc available="true" />
+	<guest_checkout available="true" />
+	<one_page_checkout available="true" />
+	<store_locator available="true" />
+	</version>
+	<author>leotheme</author>
+<name>Live Theme Editor</name>	
+<selectors>
+		<items>
+			<header>Body Content</header>
+			<match>body</match>
+			
+			<item>
+				<type>text</type>
+				<label>Background Color</label>
+				<selector>body #page</selector>
+				<attrs>background-color</attrs>
+			</item> 
+	 	<item>
+			<type>fontsize</type>
+			<label>Font-Size</label>
+			<selector>body #page</selector>
+			<attrs>font-size</attrs>
+		</item> 
+
+
+		<item>
+			<type>text</type>
+			<label>Color</label>
+			<selector>body #page</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Link Color</label>
+			<selector>body #page a</selector>
+			<attrs>color</attrs>
+		</item> 
+
+		<item>
+			<type>text</type>
+			<label>Link Hover Color</label>
+			<selector>body #page a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>image</type>
+			<label>Background Image</label>
+			<selector>body #page</selector>
+			<attrs>background-image</attrs>
+		</item> 
+	</items>
+ 
+
+	<items>
+		<header>TopBar</header>
+		<match>topbar</match>
+		<item>
+			<type>text</type>
+			<label>Background Color</label>
+			<selector>#topbar .topbar</selector>
+			<attrs>background-color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#topbar .topbar</selector>
+			<attrs>color</attrs>
+		</item> 
+
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#topbar .topbar a,#topbar .topbar ul li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#topbar .topbar a:hover,#currency a b,#topbar .topbar ul li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+		
+		<item>
+			<type>text</type>
+			<label>Border input Color</label>
+			<selector>#currency,#language,#search</selector>
+			<attrs>border-color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Bg input Color</label>
+			<selector>#currency,#language,#search</selector>
+			<attrs>background-color</attrs>
+		</item> 
+		
+		<item>
+			<type>text</type>
+			<label>Color Text input </label>
+			<selector>#search input, #search .button-search span</selector>
+			<attrs>color</attrs>
+		</item>	
+
+	</items>
+
+	<items>
+		<header>Header</header>
+		<match>header</match>
+		<item>
+			<type>text</type>
+			<label>Cart Color</label>
+			<selector>#header #cart span.icon</selector>
+			<attrs>background-color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Cart text Color</label>
+			<selector>#header #cart .heading h4</selector>
+			<attrs>color</attrs>
+		</item>
+		
+		<item>
+			<type>text</type>
+			<label>border color</label>
+			<selector>#header .cart-top, #pav-mainnav</selector>
+			<attrs>border-color</attrs>
+		</item>
+	</items>
+
+	<items>
+		<header>Footer</header>
+		<match>footer</match>
+		<item>
+			<type>text</type>
+			<label>Background Color</label>
+			<selector>#footer,#footer .box .box-heading:after</selector>
+			<attrs>background-color</attrs>
+		</item>	
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>#footer .box .box-content</selector>
+			<attrs>color</attrs>
+		</item> 
+
+	 	<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>#footer .box .box-content a,#footer .box .box-content li a</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>#footer .box .box-content a:hover,#powered .powered a,#footer .box .box-content li a:hover</selector>
+			<attrs>color</attrs>
+		</item> 
+
+		<item>
+			<type>text</type>
+			<label>Bg Center Color</label>
+			<selector>#footer .wrap-fcenter</selector>
+			<attrs>background-color</attrs>
+		</item>
+
+		<item>
+			<type>text</type>
+			<label>Bg bottom Color</label>
+			<selector>#footer #powered .powered</selector>
+			<attrs>background-color</attrs>
+		</item>		
+		
+		<item>
+			<type>image</type>
+			<label>Background Image</label>
+			<selector>#footer </selector>
+			<attrs>background-image</attrs>
+		</item> 
+	</items>
+
+</selectors>
+
+<elements>
+	<items>
+		<header>Products</header>
+		<match>produt</match>
+
+		<item>
+			<type>text</type>
+			<label>Color Title</label>
+			<selector>.product-block .name a</selector>
+			<attrs>color</attrs>
+		</item>
+
+		<item>
+			<type>text</type>
+			<label>Color Description</label>
+			<selector>.product-block .description</selector>
+			<attrs>color</attrs>
+		</item>
+		
+		
+		
+		<item>
+			<type>text</type>
+			<label>Color Price New</label>
+			<selector>.price-cart .price-new,.price</selector>
+			<attrs>color</attrs>
+		</item> 
+ 		
+ 		<item>
+			<type>text</type>
+			<label>Color Price Old</label>
+			<selector>.price-cart .price-old</selector>
+			<attrs>color</attrs>
+		</item> 
+
+		<item>
+			<type>text</type>
+			<label>Color Add to cart</label>
+			<selector>.product-block .button ,.product-block .button .icon</selector>
+			<attrs>color</attrs>
+		</item>
+		
+		<item>
+			<type>text</type>
+			<label>Border Add to cart</label>
+			<selector>.product-block .button</selector>
+			<attrs>border-color</attrs>
+		</item>
+	</items>
+	
+		<items>
+		<header>Module</header>
+		<match>module</match>
+		<item>
+			<type>text</type>
+			<label>Bg Heading Color</label>
+			<selector>.box .box-heading span,.sidebar .box .box-heading span</selector>
+			<attrs>background-color</attrs>
+		</item> 
+	 	<item>
+			<type>text</type>
+			<label>Color Text</label>
+			<selector>.box .box-content</selector>
+			<attrs>color</attrs>
+		</item> 
+		<item>
+			<type>text</type>
+			<label>Color Link</label>
+			<selector>.box .box-content a</selector>
+			<attrs>color</attrs>
+		</item>
+		<item>
+			<type>text</type>
+			<label>Color Link Hover</label>
+			<selector>.box .box-content a:hover</selector>
+			<attrs>color</attrs>
+		</item>
+
+	</items>
+</elements>
+</themeeditor>

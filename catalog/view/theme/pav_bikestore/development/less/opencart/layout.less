@@ -1,0 +1,174 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+#page{
+    margin: 0 auto;
+    background: @white;
+}
+
+body{
+    &.layout-boxed-md{
+        background: url("@{image-theme-path-base}pattern/pattern14.png");
+        #page{  max-width: @container-desktop; .box-shadow(0 0 5px #888); }
+    }
+    &.layout-boxed-lg{
+        background: url("@{image-theme-path-base}pattern/pattern14.png");
+        #page{  max-width: @container-lg-desktop; .box-shadow(0 0 5px #888); }
+
+    }
+    &.fullwidth{ }
+    
+ }   
+/*
+ * HEADER 
+ */
+#header{
+
+}
+
+#topbar  {
+    color:@topbar-color;
+    font-size: @topbar-font-size;
+    background:@topbar-bg;
+    padding: 10px 0;
+    ul {
+        li {
+            a {
+                font-size: @topbar-font-size;
+                color:@topbar-link-color;
+            }
+            &:before{
+                color:lighten(@topbar-link-color,20%);
+            }
+            &:hover a{
+                color:@topbar-link-hover-color;   
+            }
+        }
+        
+    }
+}
+
+
+#header-main{
+    .header-wrap{
+        height: 95px;
+        margin: 6px 0;
+    }
+    .inner{
+        display:table;
+        position: relative;
+        height: 100%;
+        & > *{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+ 
+/*
+ * NAVIGATION
+ */
+#pav-mainnav {
+
+}
+
+/*
+ * SLIDESHOW 
+ */
+#pav-slideshow {}
+
+/*
+ * SHOWCASE 
+ */
+#pav-showcase {}
+
+/*
+ * PROMOTION TOP 
+ */
+#pav-promotion {}
+/*
+ * MAIN CONTENT
+ */  
+#content {
+    min-height: 400px;
+    margin-bottom: 25px;
+}
+
+.sidebar  [class*="col-"] {
+    width: 100%
+}
+/* FOOTER s*/
+ 
+
+#footer {
+    background: @footer-bg;
+    .clearfix();
+    min-height: 100px;
+    padding-top: 20px;
+    border-top: 1px solid darker( @footer-bg, 20% );
+    border-bottom: 1px solid darker( @footer-bg, 20% );
+
+    .box { 
+        .box-heading{
+            .clearboxstyle(); 
+            color: @footer-heading-color;
+            font-size: @footer-heading-font-size;
+        }
+        .box-content{
+            .clearboxstyle(); 
+        }
+    } 
+    .footer-top{}
+    .footer-center{}
+    .footer-bottom{}
+    h3 {
+        color: @footer-heading-color;
+        font-size: @footer-heading-font-size;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    .column {
+        a {
+            text-decoration: none;
+            color: @footer-link-color;
+        }
+        ul {
+            margin-top: 0px;
+            margin-left: 8px;
+            padding-left: 12px;
+            li {
+                margin-bottom: 3px;
+            }
+        }
+        a:hover {
+            text-decoration: underline;
+            color:@footer-link-hover-color;
+        }
+    }
+}
+
+/* POWER BY */
+#powered {
+    margin-top: 5px;
+    text-align: right;
+    clear: both;
+    background: @power-bg;
+    padding: @padding-small-horizontal  0; 
+   color:@gray-light;
+}
+
+
+.banner {
+    div {
+        text-align: center;
+        width: 100%;
+        display: none;
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}

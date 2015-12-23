@@ -1,0 +1,114 @@
+.rtl {
+	#topbar .topbar ul {
+		li {
+			margin-right: 8px;
+			margin-left: 0px;
+			span{
+				margin-right: 0px;
+				margin-left: 5px;
+			}
+			&:first-child{
+				margin-right: 15px;
+			}
+		}
+	}
+
+	#header{
+		#logo{padding-left: 20px}
+		#pav-mainnav{
+			border-left: none;
+			border-right: 1px solid #EEE;
+		}
+		.cart-top{
+			border-left: none;
+			border-right: 1px solid #EEE;
+			padding-right: 20px;
+			padding-left: 0px;
+			#cart {
+				> span.icon{
+				float: right;
+				}
+				.content{
+					left: 0;
+					right: auto;
+				}
+			}
+		}
+	}
+	.navbar-nav{
+		> li{
+			float: right;
+			.dropdown-menu{
+				right: 0;
+				left: auto;
+			}
+		}
+	} 
+
+	.productcarousel .carousel-controls{left: 0; right: auto}
+
+	.box {
+		&.box-product {
+	        .box-heading
+	        {
+	        	border-width: 0 5px 0 0;
+	        }
+	    }
+    } 
+
+    .quickaccess{ 
+    	> div{
+    		border-width:  0 0 0 1px;
+    	}
+    	.icon {
+    		float: right;
+  	  	}
+  	} 	
+    .pavtestimonial .carousel-control{
+    	&.left{
+    		right:40px;
+    		left: auto;
+    	}
+    	&.right{
+    		left:40px;
+    		right: auto;
+    	}
+    }
+
+    .pav-block .blog-item .created:before{
+    	right: 0px;
+    	left: auto;
+    }
+
+    #footer{
+    	.box{
+    		.box-heading{
+    			&:after{
+    				right: 0;
+    				left: auto;
+    			}
+    		}
+    		.box-content{
+    			li{
+    				padding: 0 15px 0 0;
+    			}
+    			.social{
+    				li{
+    					margin: 0 0 0 8px;
+    					padding: 0;
+    					float: right;
+    					a{
+    						i{
+    							margin: 0 3px 0 0;
+    						}
+    					}
+    				}
+    			}
+    		}  
+    	}  
+	}
+	.newsletter_block .title_block{
+		text-align: left;
+	}
+	
+}

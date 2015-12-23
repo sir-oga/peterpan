@@ -1,5 +1,5 @@
 <?php
-// Heading
+// Heading 
 $_['heading_title']    = 'Affiliate';
 
 // Text
@@ -13,3 +13,4 @@ $_['text_password']    = 'Password';
 $_['text_payment']     = 'Payment Options';
 $_['text_tracking']    = 'Affiliate Tracking';
 $_['text_transaction'] = 'Transactions';
+?>
